@@ -8,5 +8,5 @@ import scrapy
 
 class AmazonCrawlerItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    keyword = scrapy.Field()
+    result = scrapy.Field()
